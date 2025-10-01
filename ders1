@@ -1,0 +1,92 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Zeynepayann/PYTHON/blob/main/ders1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# python giriş\n"
+      ],
+      "metadata": {
+        "id": "0JZ-zyv87exz"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Değişken Atama\n",
+        "a = 10\n",
+        "b = 5.5\n",
+        "c = 'merhaba python'\n",
+        "d = True\n",
+        "print(a, b, c, d)\n",
+        "\n",
+        "z =\"Ali 'nin gömleği\"\n",
+        "print(z)\n",
+        "\n",
+        "x, y, z = 1, 2, 3\n",
+        "print(x, y, z)\n",
+        "#değişken güncelleme\n",
+        "a = a + 5\n",
+        "print(\"A'nın yeni değeri\",a)\n",
+        "# daha kısa formülü döngü\n",
+        "a +=5\n",
+        "#Atama yapmadı sadece str olarak çağırdı\n",
+        "f = 10\n",
+        "print(type(str(f)))\n",
+        "# metin yazdırma\n",
+        "metin = 'endüstri mühendisiliği'\n",
+        "print(metin[0])\n",
+        "print(metin[-1])\n",
+        "#Dilimleme\n",
+        "print(metin[0:3])"
+      ],
+      "metadata": {
+        "id": "hP5ZYl8xMNeZ",
+        "outputId": "13ed614f-614b-4bc0-c849-73b3be5270f3",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10 5.5 merhaba python True\n",
+            "Ali 'nin gömleği\n",
+            "1 2 3\n",
+            "A'nın yeni değeri 15\n",
+            "<class 'str'>\n",
+            "e\n",
+            "i\n",
+            "end\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "toc_visible": true,
+      "provenance": [],
+      "history_visible": true,
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}

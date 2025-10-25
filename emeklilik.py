@@ -35,9 +35,10 @@ def emeklilik_durumu_hesapla(isim, dogum_yili, guncel_yil):
         # Emekliliğe kalan süre pozitifse
         return f"{isim}, emekliliğinize {kalan_sure} yıl kaldı."
     else:
-        # Emeklilik yaşı geçilmişse. **Hata Düzeltildi: abs[] -> abs()**
+        # Emeklilik yaşı geçilmişse. 
         # abs() mutlak değeri verir (Örn: -5 -> 5)
         return f"{isim}, {abs(kalan_sure)} yıldır emeklisiniz."
     
 # Emeklilik durumunu hesaplayıp yazdırıyoruz
+
 print(emeklilik_durumu_hesapla("Ayşe", dogum_yili, guncel_yil))
